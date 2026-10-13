@@ -132,3 +132,9 @@ footer a { text-decoration-color: var(--line); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; } }
 
 
+
+/* Download page */
+.product { display: block; }
+.product h2 { margin-bottom: 20px; }
+.availability { margin: 0; }
+
