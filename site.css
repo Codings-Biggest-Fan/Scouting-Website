@@ -43,6 +43,17 @@ h1 { margin: 0; font-size: clamp(38px, 5vw, 58px); line-height: 1.03; letter-spa
 .availability { margin: 0 0 18px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .text-link { display: inline-flex; align-items: baseline; gap: 9px; color: var(--plum); font-size: 13px; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .product-super .text-link { color: var(--blue); }
+.desktop-downloads { grid-column: 1 / -1; padding-top: 18px; border-top: 1px solid var(--line); }
+.desktop-downloads h3 { margin: 0 0 8px; font-size: 14px; font-weight: 700; }
+.download-links { list-style: none; margin: 0; padding: 0; }
+.download-links a { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 44px; padding: 9px 0; border-bottom: 1px solid var(--line); color: var(--blue); font-size: 14px; font-weight: 650; text-decoration: none; }
+.download-links a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.download-links a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.download-links span { font-size: 12px; font-weight: 400; text-align: right; }
+.download-note { margin: 12px 0 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.installation { margin-bottom: 34px; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.installation h2 { margin-bottom: 10px; font-size: 22px; }
+.installation p { margin: 0 0 10px; line-height: 1.6; }
 .text-link span { font-size: 16px; transition: transform .2s ease; }
 .text-link:hover span { transform: translate(2px, -2px); }
 .device-stage { height: 228px; display: grid; place-items: center; }
